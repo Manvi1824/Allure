@@ -1,0 +1,45 @@
+
+
+.logoheading{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+    font-size: 4vw;
+    letter-spacing: 20px;
+    font-weight: lighter;
+}
+
+.logosubheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -1vw;
+    font-weight: lighter;
+    font-size:medium;
+    letter-spacing:8px ;
+}
+.line{
+    line-break: loose;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    gap: 30px;
+    letter-spacing: 3px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 4vw;
+}
+.navbar li:hover{
+    color: rgb(116, 113, 113);
+}
+
+.box1{
+    margin-top: 5vw;
+    /* background: url(); */
+}
+
