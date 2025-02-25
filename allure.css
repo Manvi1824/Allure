@@ -41,6 +41,7 @@
 .box1{
     height: 70vh;
     width: 50vw;
+    display: inline;
 }
 #myvideo{
     display: flex;
@@ -51,11 +52,45 @@
     align-items: center;
     padding-top: 4rem;
     /* min-width: 50rem; */
-    aspect-ratio: 4/1;
-    /* opacity: 1; */
-    z-index: -1;
+    /* aspect-ratio: 4/1; */
+    /* opacity: 0.8; */
+    /* z-index: -1; */
 }
-#heading{
-
-  position: absolute;
+video{
+    opacity: 0.6;
+    /* width: 70%; */
+    /* box-sizing: 400px; */
+}
+.heading1{
+ margin-top: -10rem;
+ font-size:xx-large;
+ text-align: center;
+ font-weight:900px;
+ margin-left: 80px;
+ opacity: 1.5;
+ /* color: rgb(194, 22, 22); */
+ /* color: white; */
+ letter-spacing: 15px;
+}
+.heading2{
+    margin-top: -20px;
+    text-align: center;
+    margin-left: 450px;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+.box2{
+    margin-top: 10rem;
+    display: block;
+    /* justify-content: center; */
+    width: 35rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 29vw;
+    letter-spacing: 3px;
+    font-style: italic;
+    gap: 20rem;
+    padding: 5px;
+    /* font-display:inherit; */
+    
 }
