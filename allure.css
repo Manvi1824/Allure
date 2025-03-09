@@ -314,7 +314,7 @@ video{
     padding: 2rem;
     gap: 10px;
     background-color: rgb(226, 226, 226);
-    width: 70vw;
+    width: 80vw;
     max-width: 800px;
 }
 
@@ -323,6 +323,7 @@ video{
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
     height: 60vh;
+    /* width: 90vw; */
 }
 
 .contactboxheading{
@@ -331,10 +332,134 @@ font-weight: bold;
 margin-top: -1px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 color: rgb(38, 38, 38, .51);
+letter-spacing: 1px;
 }
-/* .contactboxpara{
-
+.contactboxpara{
+    color: rgb(38, 38, 38, .51);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+margin-top: 20px;
+}
+.email{
+    border: none;
+    height: 45px;
+    width: 200px;
+    text-align:start;
+    border:solid 0.1px rgb(38, 38, 38, .51);
+    margin-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+letter-spacing: 1px;
+font-size: 14px;
+padding-left: 10px;
+    /* margin-bottom: -15px; */
+}
+.btn{
+height: 49px;
+width:120px;
+margin-left: 10px;
+border: 2px solid rgb(38, 38, 38, .51);
+color: rgb(38, 38, 38, .51);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 16px;
+cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(38, 38, 38, .51) ;
+    color: white;
 }
 .contactboxfooter{
+color: rgb(38, 38, 38, .51);
+font-size: 11.5px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 3rem;
+margin-bottom: -0.6rem;
+}
+.box9{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color:  rgb(38, 38, 38, .51) ;
+    text-align: center;
 
-} */
+
+    margin-top: -7rem;
+}
+.faqs{
+margin-left: 2rem;
+margin-right: 2rem;
+margin-top: 1px;
+/* width: ; */
+}
+.faqspara{
+    font-weight: bold;
+    color: #222;
+
+}
+.faqscontent{
+    color:#643a55 ;
+    text-decoration: none;
+    font-size: 11px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.faqscontent:hover{
+    text-decoration: underline;
+}
+.contactme{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contactmepara{
+    color: #222;
+    font-weight: bold;
+
+
+}
+.contactmecontent{
+    color:#643a55 ;
+    font-size: 11px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.contactmecontent:hover{
+text-decoration: underline;
+}
+.booking{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 300px;
+    text-align: center;
+    color: #222;
+    font-weight: bold;
+
+}
+.address{
+font-size: smaller;
+}
+#socials{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+}
+.socialicons{
+letter-spacing: 5px;
+text-decoration: none;
+padding-top: 10px;
+text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    color: #7d7d7d;
+
+
+}
