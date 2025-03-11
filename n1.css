@@ -26,7 +26,7 @@
     margin-top: 3%;
 }
 
-.navbar {
+.navbar{
     list-style: none;
     display: flex;
     font-size: 12px;
@@ -35,6 +35,10 @@
     /* align-items: center; */
     justify-content: center;
     margin-top: 3vw;
+}
+li a{
+    color: #222;
+    text-decoration: none;
 }
 
 .navbar li:hover {
@@ -1063,7 +1067,7 @@
     /* font-weight: bold; */
 }
 
-.line1 {
+.line1-portfolio {
     width: 90%;
     margin-top: 18%;
     color: #7d7d7d;

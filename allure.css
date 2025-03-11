@@ -38,6 +38,10 @@
     justify-content: center;
     margin-top: 3vw;
 }
+li a{
+    color: #222;
+    text-decoration: none;
+}
 
 .navbar li:hover {
     color: rgb(116, 113, 113);
