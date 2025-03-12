@@ -22,8 +22,7 @@
 
 .line1 {
     width: 15%;
-
-    color: #747272;
+    color: #7d7d7d;
     margin-top: 3%;
 }
 
@@ -48,256 +47,228 @@ li a {
 }
 
 .box1 {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    width: 40%;
-    margin: auto;
-    margin-top: 12%;
-}
-
-.box1heading {
-    text-align: start;
-    letter-spacing: 4px;
-    font-size: 28px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
-}
-
-.box1para {
-    text-align: start;
-    color: #747272;
-    letter-spacing: 1px;
-    line-height: 1.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    padding: 5px;
-}
-
-.box2 {
-    /* padding: 6%; */
     display: flex;
+    gap: 10%;
+}
+
+.section1 {
+    width: 30%;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 5%;
 }
 
 .img1 {
-    width: 42vw;
-    height: 90vh;
+    width: 35vw;
+    height: auto;
+}
 
-    margin: 4rem;
+.section1para {
+    text-align: start;
+    font-size: 12px;
+    color: #7d7d7d;
+    letter-spacing: 1px;
+}
+
+.section2 {
+    width: 50%;
+    text-align: start;
+    margin-top: 5%;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+
+}
+
+.heading1 {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #222;
+}
+
+.para1 {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
+
+}
+
+.para2 {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
+
+}
+
+#para3 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    color: #7d7d7d;
+    font-size: medium;
+    font-style: italic;
+}
+
+#para4 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
+    line-height: 2rem;
+    font-size: medium;
+    font-style: italic;
+
+}
+
+#para5 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    color: #7d7d7d;
+
+    font-size: medium;
+    font-style: italic;
+
+}
+
+.heading2 {
+    font-size: 11px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: bold;
+    color: #222;
+}
+
+#para6 {
+    font-size: 11px;
+    line-height: 2rem;
+    letter-spacing: 1.5px;
+    font-size: medium;
+    color: #7d7d7d;
+    font-style: italic;
+}
+
+#para7 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    font-style: italic;
+    font-size: medium;
+    color: #7d7d7d;
+
+
+}
+
+#para8 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    font-size: medium;
+    font-style: italic;
+    color: #7d7d7d;
+
+}
+
+.heading3 {
+    font-size: 11px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: bold;
+    color: #222;
+}
+
+.paragraphs {
+    border-left: 0.5px solid #7d7d7d;
+    /* Vertical bar */
+    padding-left: 30px;
+    /* Space between bar and text */
+    line-height: 1.4;
+
 }
 
 .img2 {
-    width: 42vw;
-    height: 90vh;
-    /* margin-right: 3rem;
-    margin-left: 1rem; */
-    /* text-align: center; */
-    margin: 4rem;
-    margin-left: -0.5rem;
-
+    width: 40vw;
+    height: auto;
 }
 
-.box3 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 32%;
-    margin-top: -5%;
-    font-size: smaller;
-    color: #747272;
+.heading4 {
+    font-size: 11px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-weight: bold;
-    letter-spacing: 1px;
+    color: #222;
 }
 
-#box3para1 {
-    margin-left: -25%;
+#para9 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    font-size: medium;
+    font-style: italic;
+    color: #7d7d7d;
+
 }
 
-.box4 {
-    display: flex;
-    gap: 10%;
+#para10 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    font-size: medium;
+    font-style: italic;
+    color: #7d7d7d;
+
+}
+
+#para11 {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    font-size: medium;
+    font-style: italic;
+    color: #7d7d7d;
+    /* margin-top: 5%; */
+
+}
+
+.para12 {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
     margin-top: 5%;
 
 }
 
-.section1heading {
-    text-align: start;
-    letter-spacing: 3px;
+.para13 {
     font-size: 13px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: #222;
-}
-
-.section2heading {
-    text-align: start;
-    letter-spacing: 3px;
-    font-size: 13px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: #222;
-}
-
-.box4section1 {
-    width: 27%;
-    margin-left: 13%;
-    text-align: center;
-    text-align: start;
-    color: #747272;
-    letter-spacing: 1px;
-    line-height: 1.8rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-}
-
-.box4section2 {
-    width: 27%;
-    margin-left: 13%;
-    text-align: center;
-    text-align: start;
-    color: #747272;
-    letter-spacing: 1px;
-    line-height: 1.8rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-
-}
-
-.bridalline1 {
-    width: 80%;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
     margin-top: 5%;
+
 }
 
-.box5 {
-    display: flex;
-    flex-direction: column;
-    /* width: 70%; */
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-.box5heading {
+.para14 {
     font-size: 13px;
-    color: #222;
-    letter-spacing: 2px;
-    margin: 1%;
-}
-
-.box5para1 {
-    letter-spacing: 1px;
-    color: #747272;
-    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
+    margin-top: 5%;
 
 }
 
-.box5para2 {
-    letter-spacing: 1px;
-    color: #747272;
-    font-size: 14px;
+.para15 {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
+    margin-top: 5%;
 
 }
 
-.box5para3 {
-    letter-spacing: 1px;
-    color: #747272;
-    font-size: 14px;
-    margin-top: 1px;
+.para16 {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #7d7d7d;
+    margin-top: 5%;
+
+
 }
 
 b {
     color: #222;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    max-width: 1200px;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.gallery img:hover {
-    transform: scale(1.05);
-}
-
-.lightbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-
-.lightbox:target {
-    display: flex;
-}
-
-.lightbox img {
-    max-width: 80%;
-    max-height: 80%;
-    border-radius: 10px;
-}
-
-.close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-}
-
-.prev,
-.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-
-.box6 {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #f4f4f4;
-    margin: 0;
-}
-
-.box6heading {
-    font-size: 11px;
-    margin-top: 10%;
-    margin-left: 5.2%;
-    margin-bottom: 3%;
-    letter-spacing: 3px;
 }
 
 .contactbox1 {
@@ -314,14 +285,12 @@ b {
 
 .parent-con-container {
     display: flex;
-    /* max-width: 90vw; */
     justify-content: center;
     /* Centers horizontally */
     align-items: center;
     /* Centers vertically */
     height: 60vh;
-    /* width: 80vw; */
-    margin-top: 10%;
+    /* width: 90vw; */
 }
 
 .contactboxheading {
@@ -379,7 +348,7 @@ b {
     margin-bottom: -0.6rem;
 }
 
-.box7 {
+.box2 {
     display: flex;
     flex-direction: row;
     padding: 5rem;
@@ -389,7 +358,6 @@ b {
     letter-spacing: 1px;
     color: rgb(38, 38, 38, .51);
     text-align: center;
-
 
     margin-top: -7rem;
 }
