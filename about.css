@@ -135,6 +135,8 @@ li a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-weight: bold;
     color: #222;
+    margin-top: 9%;
+
 }
 
 #para6 {
@@ -172,6 +174,7 @@ li a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-weight: bold;
     color: #222;
+    margin-top: 9%;
 }
 
 .paragraphs {
@@ -180,12 +183,14 @@ li a {
     padding-left: 30px;
     /* Space between bar and text */
     line-height: 1.4;
+    /* margin-top: 5%; */
 
 }
 
 .img2 {
     width: 40vw;
     height: auto;
+    margin-top: 9%;
 }
 
 .heading4 {
@@ -193,6 +198,8 @@ li a {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-weight: bold;
     color: #222;
+    margin-top: 9%;
+
 }
 
 #para9 {
