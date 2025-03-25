@@ -620,6 +620,10 @@ video {
         text-align: center;
         margin-left: 0;
     }
+    .project-slide-image{
+        margin-top: auto;
+        text-align: center;
+    }
 
     /* INSTAGRAM GRID */
     #instabox {
@@ -660,6 +664,6 @@ video {
     .contactme,
     .booking,
     #socials {
-        margin: 10px 0;
+        margin: 20px 0;
     }
 }
