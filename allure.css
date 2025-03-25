@@ -40,7 +40,9 @@
     justify-content: center;
     margin-top: 3vw;
 }
-
+.menu-icon{
+    display: none;
+}
 li a {
     color: #222;
     text-decoration: none;
@@ -291,7 +293,19 @@ video {
     margin-top: 18%;
     color: #7d7d7d;
 }
+.box7 {
+    width: 100%; /* Make it take full width */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center;
+    padding: 2px; /* Add padding for spacing */
+}
 
+.project-slide-image {
+    max-width: 90%; /* Ensures image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
 .box8 {
     margin-top: 4rem;
     display: block;
@@ -554,6 +568,7 @@ video {
         width: 100%;
     }
 
+
     /* VIDEO */
     #myvideo {
         width: 100%;
@@ -620,9 +635,18 @@ video {
         text-align: center;
         margin-left: 0;
     }
-    .project-slide-image{
-        margin-top: auto;
-        text-align: center;
+    .box7 {
+        width: 100%; /* Make it take full width */
+        display: flex;
+        justify-content: center; /* Center the image */
+        align-items: center;
+        padding: 10px; /* Add padding for spacing */
+    }
+    
+    .project-slide-image {
+        max-width: 100%; /* Ensures image is responsive */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px; /* Optional: Rounded corners */
     }
 
     /* INSTAGRAM GRID */
@@ -655,15 +679,20 @@ video {
 
     /* FOOTER */
     .box9 {
-        flex-direction: column;
-        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap instead of overlapping */
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        gap: 20px; /* Creates space between items */
+        padding: 3rem;
+        width: 100%;
     }
-
     .faqs,
     .contactme,
     .booking,
-    #socials {
-        margin: 20px 0;
-    }
+    #socials  { flex: 1; /* Equal width */
+    min-width: 200px; /* Prevents collapsing */
+    margin: 10px 0;
+}
 }
