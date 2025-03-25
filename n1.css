@@ -1263,72 +1263,61 @@ li a {
 
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 414px) {
     .logoheading {
-        font-size: 6vw;
+        font-size: 7vw;
         letter-spacing: 5px;
-        margin-top: 5vw;
+        margin-top: 10vw;
     }
 
     .logosubheading {
-        font-size: 1rem;
+        font-size: 3vw;
         letter-spacing: 3px;
-    }
-
-    .line1 {
-        width: 50%;
+        margin-top: -2vw;
     }
 
     .navbar {
         flex-direction: column;
+        align-items: center;
+        font-size: 10px;
         gap: 10px;
-        font-size: 14px;
+        margin-top: 5vw;
     }
 
-    .bannerimg {
-        margin-top: 1rem;
-    }
-
-    .img1 {
-        width: 100%;
+    .bannerimg .img1 {
+        width: 95vw;
     }
 
     .box1, .box3, .box6, .box8, .box12, .box13, .box15, .box16, .box19, .box20, .box21, .box24, .box26, .box28, .box31 {
-        display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: center;
         float: none;
-        margin-top: 3rem;
     }
 
-    .box1para1, .box3para1, .box6para1, .box8para1, .box12para1, .box13para1, .box15para1, .box16para1, .box19para1, .box20para1, .box21para1, .box24para1, .box26para1, .box28para1, .box31para1 {
-        margin-top: 2rem;
-        font-size: 14px;
+    .box1para1, .box3para1, .box3para2, .box6para1, .box6para2, 
+    .box8para1, .box9para1, .box12para1, .box12para2, 
+    .box13para1, .box13para2, .box14para1, .box15para1, 
+    .box15para2, .box16para1, .box16para2, .box17para1, 
+    .box19para1, .box20para1, .box20para2, .box21para1, 
+    .box21para2, .box24para1, .box26para1, .box27para1, 
+    .box28para1, .box28para2, .box31para1 {
+        font-size: 12px;
+        margin: 10px 5vw;
         text-align: center;
     }
 
-    .box3para2, .box6para2, .box12para2, .box13para2, .box15para2, .box16para2, .box20para2, .box21para2, .box28para2 {
-        margin-top: 1rem;
-        font-size: 18px;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .img2, .img5, .img8, .img10, .img14, .img15, .img17, .img18, .img21, .img22, .img23, .img26, .img28, .img30, .img33 {
-        width: 90%;
+    .img2, .img5, .img8, .img10, .img14, .img15, .img17, 
+    .img18, .img21, .img22, .img23, .img26, .img28, .img30, .img33 {
+        width: 90vw;
         margin: 2rem auto;
     }
 
-    .box4, .box5, .box7, .box9, .box10, .box11, .box14, .box17, .box18, .box22, .box23, .box25, .box27, .box29, .box30 {
-        text-align: center;
-        margin: auto;
+    .img6, .img9, .img11, .img13, .img16, .img19, .img20, 
+    .img24, .img25, .img27, .img29, .img31, .img32 {
+        width: 95vw;
     }
 
-    .img6, .img9, .img11, .img13, .img16, .img19, .img20, .img24, .img25, .img27, .img29, .img31, .img32 {
-        width: 95%;
-        height: auto;
-        margin: 3rem auto;
+    .box7, .box9, .box14, .box17, .box22, .box23, .box25, .box27, .box29, .box30 {
+        text-align: center;
     }
 }
