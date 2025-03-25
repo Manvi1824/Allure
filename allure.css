@@ -603,6 +603,7 @@ video {
         margin: auto;
         font-size: 14px;
         line-height: 1.6;
+        margin-top: 3rem;
     }
 
     /* IMAGES */
@@ -641,12 +642,14 @@ video {
         justify-content: center; /* Center the image */
         align-items: center;
         padding: 10px; /* Add padding for spacing */
+        margin-bottom: 3rem;
     }
     
     .project-slide-image {
         max-width: 100%; /* Ensures image is responsive */
         height: auto; /* Maintain aspect ratio */
         border-radius: 5px; /* Optional: Rounded corners */
+        margin-bottom: 3rem;
     }
 
     /* INSTAGRAM GRID */
@@ -694,5 +697,6 @@ video {
     #socials  { flex: 1; /* Equal width */
     min-width: 200px; /* Prevents collapsing */
     margin: 10px 0;
+    margin-top: 3rem;
 }
 }
