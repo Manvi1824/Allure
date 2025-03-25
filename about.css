@@ -455,3 +455,55 @@ b {
 
 
 }
+
+@media screen and (max-width: 768px) {
+    .logoheading {
+        font-size: 6vw;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+    }
+
+    .logosubheading {
+        font-size: small;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .box1 {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .section1, .section2 {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .img1, .img2 {
+        width: 90%;
+    }
+
+    .contactbox1 {
+        width: 90vw;
+        padding: 1.5rem;
+    }
+
+    .box2 {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .faqs, .contactme, .booking {
+        margin: 1rem 0;
+    }
+}
