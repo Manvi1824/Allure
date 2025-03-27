@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    /* Ensures padding/margin don't increase element size */
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.logoheading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+    font-size: 4vw;
+    letter-spacing: 20px;
+    font-weight: lighter;
+}
+
+.logosubheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5vw;
+    font-weight: lighter;
+    font-size: medium;
+    letter-spacing: 8px;
+}
+
+.line {
+
+    text-align: center;
+    margin: 4vw;
+}
+
+.line1 {
+    width: 15%;
+    color: #7d7d7d;
+    /* margin-top: 3%; */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    gap: 30px;
+    letter-spacing: 3px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+li a {
+    color: #222;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgb(116, 113, 113);
+}
+.container1{
+    display: flex;
+    margin-top: 5vw;
+}
+.box1{
+    width: 40vw;
+}
+.box2{
+    width: 50vw;
+}
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin: 1.5vw;
+}
+textarea{
+    width: 5vw;
+    height: auto;
+}
