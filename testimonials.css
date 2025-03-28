@@ -357,3 +357,132 @@ hr {
 
 
 }
+@media (max-width: 768px) {
+    .logoheading {
+        font-size: 6vw;
+        letter-spacing: 10px;
+        margin-top: 10vw;
+    }
+
+    .logosubheading {
+        font-size: 3vw;
+        letter-spacing: 2px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        gap: 10px; /* Reduce gap */
+        font-size: 14px; /* Adjust font size for better fit */
+        padding: 10px 0; /* Add padding for spacing */
+    }
+
+    .container1 {
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container1heading1 {
+        font-size: 3vw;
+    }
+
+    .container1para1 {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+
+    .img1 {
+        width: 80%;
+    }
+
+    .container2 {
+        flex-direction: column; /* Stack boxes vertically */
+        align-items: center; /* Center align */
+        text-align: center; /* Center text */
+    }
+
+    .box1, .box2 {
+        width: 90%; /* Increase width for better spacing */
+        margin: 10px 0; /* Add spacing between boxes */
+        font-size: 14px; /* Reduce font size */
+        line-height: 1.6; /* Increase line height for readability */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .box1heading, .box2heading {
+        font-size: 10px; /* Adjust heading font size */
+        margin-bottom: 5px; /* Reduce space below heading */
+    }
+
+    .box1para, .box2para {
+        font-size: 13px; /* Adjust paragraph font size */
+        line-height: 1.7; /* Improve readability */
+        letter-spacing: 0.5px; /* Reduce letter spacing */
+    }
+}
+
+    .contactbox1 {
+        width: 90%;
+    }
+
+    .email {
+        width: 80%;
+        font-size: 3vw;
+    }
+
+    .btn {
+        width: 50%;
+        font-size: 3vw;
+    }
+
+
+@media (max-width: 480px) {
+    .logoheading {
+        font-size: 7vw;
+    }
+
+    .logosubheading {
+        font-size: 4vw;
+    }
+
+    .navbar {
+        font-size: 4vw;
+    }
+
+    .container1 {
+        width: 90%;
+    }
+
+    .container1heading1 {
+        font-size: 4vw;
+    }
+
+    .container1para1 {
+        font-size: 3.5vw;
+    }
+
+    .img1 {
+        width: 90%;
+    }
+
+    .box1, .box2 {
+        width: 100%;
+    }
+
+    .contactbox1 {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .email {
+        width: 90%;
+        font-size: 4vw;
+    }
+
+    .btn {
+        width: 60%;
+        font-size: 4vw;
+    }
+}
